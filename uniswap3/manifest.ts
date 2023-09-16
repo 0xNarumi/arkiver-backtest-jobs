@@ -13,7 +13,7 @@ const POOL_USDC_WETH_500 = '0xC31E54c7a869B9FcBEcc14363CF510d1c41fa443'
 const manifest = new Manifest('univ3-ohlc');
 const arbitrum = manifest
   .addEntities([AmmPool, Token, Snapshot, Ohlc])
-  .addChain("arbitrum one", { blockRange: 500n })
+  .addChain("arbitrum", { blockRange: 500n })
   
   
 // Hourly data handler
